@@ -1,6 +1,6 @@
 context:
   name: prefligit
-  version: "0.0.21"
+  version: "0.0.23"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/j178/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e4122150b44d39f7693ca8c2676fe07fa1f2607cf42302c8b8447619aafa311e
+  sha256: 7d3762bfa2c300d120cfdda0059e1b24ccb254c6174186e4c2c0ab88284a3cca
 
 build:
   number: 0
